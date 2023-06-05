@@ -1,0 +1,486 @@
+Feature,Attribute
+CNTRYID,Country Identifier
+CNT,Country code 3-character
+NatCen,National Centre 6-digit Code
+STRATUM,Stratum ID 7-character (cnt + region ID + original stratum ID)
+SUBNATIO,Adjudicated sub-region code 7-digit code (3-digit country code + region ID + stratum ID)
+OECD,OECD country
+ADMINMODE,Mode of Respondent
+LANGTEST_COG,Language of Assessment
+LANGTEST_PAQ,Language of Assessment (PAQ)
+BOOKID,Form Identifier
+ST001D01T,Student International Grade (Derived)
+ST003D02T,Student (Standardized) Birth - Month
+ST003D03T,Student (Standardized) Birth -Year
+ST004D01T,Student (Standardized) Gender
+ST005Q01TA,What is the <highest level of schooling> completed by your mother?
+ST006Q01TA,Does your mother have this qualification? <ISCED level 6> (incl. higher qualifications at level 5A in some countries)
+ST006Q02TA,Does your mother have this qualification? <ISCED level 5A> (excl. higher qualifications at level 5A in some countries)
+ST006Q03TA,Does your mother have any of the following qualifications? <ISCED level 5B>
+ST006Q04TA,Does your mother have any of the following qualifications? <ISCED level 4>
+ST007Q01TA,What is the <highest level of schooling> completed by your father?
+ST008Q01TA,Does your father have this qualification? <ISCED level 6> (incl. higher qualifications at level 5A in some countries)
+ST008Q02TA,Does your father have this qualification? <ISCED level 5A> (excl. higher qualifications at level 5A in some countries)
+ST008Q03TA,Does your father have any of the following qualifications? <ISCED level 5B>
+ST008Q04TA,Does your father have any of the following qualifications? <ISCED level 4>
+ST011Q01TA,In your home: A desk to study at
+ST011Q02TA,In your home: A room of your own
+ST011Q03TA,In your home: A quiet place to study
+ST011Q04TA,In your home: A computer you can use for school work
+ST011Q05TA,In your home: Educational software
+ST011Q06TA,In your home: A link to the Internet
+ST011Q07TA,In your home: Classic literature (e.g. <Shakespeare>)
+ST011Q08TA,In your home: Books of poetry
+ST011Q09TA,In your home: Works of art (e.g. paintings)
+ST011Q10TA,In your home: Books to help with your school work
+ST011Q11TA,In your home: <Technical reference books>
+ST011Q12TA,In your home: A dictionary
+ST011Q16NA,"In your home: Books on art, music, or design"
+ST011D17TA,In your home: <Country-specific wealth item 1>
+ST011D18TA,In your home: <Country-specific wealth item 2>
+ST011D19TA,In your home: <Country-specific wealth item 3>
+ST012Q01TA,How many in your home: Televisions
+ST012Q02TA,How many in your home: Cars
+ST012Q03TA,How many in your home: Rooms with a bath or shower
+ST012Q05NA,How many in your home: <Cell phones> with Internet access (e.g. smartphones)
+ST012Q06NA,"How many in your home: Computers (desktop computer, portable laptop, or notebook)"
+ST012Q07NA,"How many in your home: <Tablet computers> (e.g. <iPad>, <BlackBerry PlayBook>)"
+ST012Q08NA,"How many in your home: E-book readers (e.g. <Kindle>, <Kobo>, <Bookeen>)"
+ST012Q09NA,"How many in your home: Musical instruments (e.g. guitar, piano)"
+ST013Q01TA,How many books are there in your home?
+ST019AQ01T,In what country were you and your parents born? You
+ST019BQ01T,In what country were you and your parents born? Mother
+ST019CQ01T,In what country were you and your parents born? Father
+ST021Q01TA,How old were you when you arrived in <country of test>?
+ST125Q01NA,How old were you when you started <ISCED 0>? Years
+ST126Q01TA,How old were you when you started <ISCED 1>? Years
+ST127Q01TA,Have you ever repeated a <grade>? At <ISCED 1>
+ST127Q02TA,Have you ever repeated a <grade>? At <ISCED 2>
+ST127Q03TA,Have you ever repeated a <grade>? At <ISCED 3>
+ST022Q01TA,What language do you speak at home most of the time?
+ST023Q01TA,Which language do you usually speak with: My mother
+ST023Q02TA,Which language do you usually speak with: My father
+ST023Q03TA,Which language do you usually speak with: My brother(s) and/or sister(s)
+ST023Q04TA,Which language do you usually speak with: My best friend
+ST023Q05TA,Which language do you usually speak with: My schoolmates
+ST097Q01TA,How often during <test language lessons>: Students don't listen to what the teacher says.
+ST097Q02TA,How often during <test language lessons>: There is noise and disorder.
+ST097Q03TA,How often during <test language lessons>: The teacher waits long for students to quiet down.
+ST097Q04TA,How often during <test language lessons>: Students cannot work well.
+ST097Q05TA,How often during <test language lessons>: Students don't start working for a long time after the lesson begins.
+ST100Q01TA,How often during <test language lessons>: The teacher shows aninterest in every student's learning.
+IC001Q01TA,Available for you to use at home: Desktop computer
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook"
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad>, <BlackBerry PlayBook>)"
+IC001Q04TA,Available for you to use at home: Internet connection
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony PlayStation>"
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access)
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access)
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3/Mp4 player, iPod or similar)"
+IC001Q09TA,Available for you to use at home: Printer
+IC001Q10TA,Available for you to use at home: USB (memory) stick
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon Kindle>"
+IC009Q01TA,Available for you to use at school: Desktop computer
+IC009Q02TA,Available for you to use at school: Portable laptop or notebook
+IC009Q03TA,"Available for you to use at school: <Tablet computer> (e.g. <iPad>, <BlackBerry PlayBook>)"
+IC009Q05NA,Available for you to use at school: Internet connected school computers
+IC009Q06NA,Available for you to use at school: Internet connection via wireless network
+IC009Q07NA,"Available for you to use at school: Storage space for school-related data, e.g. a folder for own documents"
+IC009Q08TA,Available for you to use at school: USB (memory) stick
+IC009Q09TA,"Available for you to use at school: <ebook reader>, e.g. <Amazon Kindle>"
+IC009Q10NA,"Available for you to use at school: Data projector, e.g. for slide presentations"
+IC009Q11NA,"Available for you to use at school: Interactive Whiteboard, e.g. <Smartboard>"
+IC002Q01HA,How old were you when you first used a digital device?
+IC004Q01HA,How old were you when you first accessed the Internet?
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?"
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?"
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?"
+IC150Q01HA,Time spent using digital devices during classroom lessons in a typical school week: <Test language lessons>
+IC150Q02HA,Time spent using digital devices during classroom lessons in a typical school week: <Mathematics>
+IC150Q03HA,Time spent using digital devices during classroom lessons in a typical school week: <Science>
+IC150Q04HA,Time spent using digital devices during classroom lessons in a typical school week: <Foreign language>
+IC150Q05HA,Time spent using digital devices during classroom lessons in a typical school week: <Social sciences>
+IC150Q06HA,Time spent using digital devices during classroom lessons in a typical school week: Music
+IC150Q07HA,Time spent using digital devices during classroom lessons in a typical school week: Sports
+IC150Q08HA,Time spent using digital devices during classroom lessons in a typical school week: <Performing arts>
+IC150Q09HA,Time spent using digital devices during classroom lessons in a typical school week: <Visual arts>
+IC151Q01HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Test language lessons>
+IC151Q02HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Mathematics>
+IC151Q03HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Science>
+IC151Q04HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Foreign language>
+IC151Q05HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Social sciences>
+IC151Q06HA,Time spent using digital devices outside of classroom lessons in a typical school week: Music
+IC151Q07HA,Time spent using digital devices outside of classroom lessons in a typical school week: Sports
+IC151Q08HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Performing arts>
+IC151Q09HA,Time spent using digital devices outside of classroom lessons in a typical school week: <Visual arts>
+IC152Q01HA,Digital device used for learning or teaching during lessons within the last month: <Test language lessons>
+IC152Q02HA,Digital device used for learning or teaching during lessons within the last month: <Mathematics>
+IC152Q03HA,Digital device used for learning or teaching during lessons within the last month: <Science>
+IC152Q04HA,Digital device used for learning or teaching during lessons within the last month: <Foreign language>
+IC152Q05HA,Digital device used for learning or teaching during lessons within the last month: <Social sciences>
+IC152Q06HA,Digital device used for learning or teaching during lessons within the last month: Music
+IC152Q07HA,Digital device used for learning or teaching during lessons within the last month: Sports
+IC152Q08HA,Digital device used for learning or teaching during lessons within the last month: <Performing arts>
+IC152Q09HA,Digital device used for learning or teaching during lessons within the last month: <Visual arts>
+IC008Q01TA,Use digital devices outside of school: Playing one-player games.
+IC008Q02TA,Use digital devices outside of school: Playing collaborative online games.
+IC008Q03TA,Use digital devices outside of school: Using email.
+IC008Q04TA,Use digital devices outside of school: <Chatting online> (e.g. <MSN>).
+IC008Q05TA,"Use digital devices outside of school: Participating in Social Networks (e.g. <Facebook>, <MySpace>)."
+IC008Q07NA,"Use digital devices outside of school: Playing online games via Social Networks (e.g. <Farmville>, <The Sims Social>)."
+IC008Q08TA,"Use digital devices outside of school: Browsing the Internet for fun (such as watching videos, e.g. <YouTube>)."
+EC031Q01TA,Did you change schools when you were attending <ISCED 1>?
+EC032Q01TA,Did you change schools when you were attending <ISCED 2>?
+EC033Q01NA,Have you ever changed your <study programme>?
+EC150Q01WA,Find out about future study or types of work: I did an internship.
+EC150Q02WA,Find out about future study or types of work: I attended <job shadowing or work-site visits>.
+EC150Q03WA,Find out about future study or types of work: I visited a <job fair>.
+EC150Q04WA,Find out about future study or types of work: I spoke to a <career advisor> at my school.
+EC150Q05WA,Find out about future study or types of work: I spoke to a <career advisor> outside of my school.
+EC150Q06WA,Find out about future study or types of work: I completed a questionnaire to find out about my interests and abilities.
+EC150Q07WA,Find out about future study or types of work: I researched the Internet for information about careers.
+EC150Q08WA,Find out about future study or types of work: I went to an organised tour in an <ISCED 3-5> institution.
+EC150Q09WA,Find out about future study or types of work: I researched the Internet for information about <ISCED 3-5> programmes.
+EC150Q10WA,Find out about future study or types of work: <country specific item>
+EC151Q01WA,"Acquired skills: How to find information on jobs I am interested in. Yes, at school"
+EC151Q01WB,"Acquired skills: How to find information on jobs I am interested in. Yes, out of school"
+EC151Q01WC,"Acquired skills: How to find information on jobs I am interested in. No, never"
+EC151Q02WA,"Acquired skills: How to search for a job. Yes, at school"
+EC151Q02WB,"Acquired skills: How to search for a job. Yes, out of school"
+EC151Q02WC,"Acquired skills: How to search for a job. No, never"
+EC151Q03WA,"Acquired skills: How to write a <rsum> or a summary of my qualifications. Yes, at school"
+EC151Q03WB,"Acquired skills: How to write a <rsum> or a summary of my qualifications. Yes, out of school"
+EC151Q03WC,"Acquired skills: How to write a <rsum> or a summary of my qualifications. No, never"
+EC151Q04WA,"Acquired skills: How to prepare for a job interview. Yes, at school"
+EC151Q04WB,"Acquired skills: How to prepare for a job interview. Yes, out of school"
+EC151Q04WC,"Acquired skills: How to prepare for a job interview. No, never"
+EC151Q05WA,"Acquired skills: How to find information on student financing (e.g. student loans or grants). Yes, at school"
+EC151Q05WB,"Acquired skills: How to find information on student financing (e.g. student loans or grants). Yes, out of school"
+EC151Q05WC,"Acquired skills: How to find information on student financing (e.g. student loans or grants). No, never"
+EC152Q01HA,What do you think you will be doing 5 years from now?
+EC153Q01HA,Importance for decisions about future occupation: My parents' or guardians' expectations about my occupation
+EC153Q02HA,Importance for decisions about future occupation: The plans my close friends have for their future
+EC153Q03HA,Importance for decisions about future occupation: My school grades
+EC153Q04HA,Importance for decisions about future occupation: The school subjects I am good at
+EC153Q05HA,Importance for decisions about future occupation: My special talents
+EC153Q06HA,Importance for decisions about future occupation: My hobbies
+EC153Q07HA,Importance for decisions about future occupation: The social status of the occupation I want
+EC153Q08HA,Importance for decisions about future occupation: Financial support for education or training
+EC153Q09HA,Importance for decisions about future occupation: Education or training options for the occupation I want
+EC153Q10HA,Importance for decisions about future occupation: Employment opportunities for the occupation I want
+EC153Q11HA,Importance for decisions about future occupation: The expected salary of the occupation I want
+EC160Q01HA,"If you had the opportunity to participate in a student exchange programme [...], would you like to take part?"
+EC158Q01HA,"On the most recent day you attended school, how long did you study in the morning before going to school? Hours"
+EC158Q02HA,"On the most recent day you attended school, how long did you study in the morning before going to school? Minutes"
+EC159Q01HA,"On the most recent day you attended school, how long did you study after leaving school? Hours"
+EC159Q02HA,"On the most recent day you attended school, how long did you study after leaving school? Minutes"
+EC163Q01HA,Why did you study before or after school? I was interested in the content.
+EC163Q02HA,Why did you study before or after school? We have a test coming up soon.
+EC163Q03HA,Why did you study before or after school? My parents think studying is important.
+EC163Q04HA,Why did you study before or after school? I had a homework assignment.
+EC163Q05HA,Why did you study before or after school? All my classmates study before or after school.
+EC163Q06HA,Why did you study before or after school? I always study.
+EC163Q07HA,Why did you study before or after school? Other reason.
+EC162Q01HA,Why didn't you study before or after school? I had no time to study.
+EC162Q02HA,Why didn't you study before or after school? I was not interested in the content.
+EC162Q03HA,Why didn't you study before or after school? There is no test coming up soon.
+EC162Q04HA,Why didn't you study before or after school? Nobody told me I have to study.
+EC162Q05HA,Why didn't you study before or after school? I had no homework assignment.
+EC162Q06HA,Why didn't you study before or after school? None of my classmates study before or after school.
+EC162Q07HA,Why didn't you study before or after school? I never study.
+EC162Q08HA,Why didn't you study before or after school? Other reason.
+WB150Q01HA,How is your health?
+WB151Q01HA,How much do you weigh? (kilograms)
+WB152Q01HA,How tall are you? (centimeters)
+WB153Q01HA,Agree: I like my look just the way it is.
+WB153Q02HA,Agree: I consider myself to be attractive.
+WB153Q03HA,Agree: I am not concerned about my weight.
+WB153Q04HA,Agree: I like my body.
+WB153Q05HA,Agree: I like the way my clothes fit me.
+WB154Q01HA,"In the past six months, how often have you had the following? Headache"
+WB154Q02HA,"In the past six months, how often have you had the following? Stomach pain"
+WB154Q03HA,"In the past six months, how often have you had the following? Back pain"
+WB154Q04HA,"In the past six months, how often have you had the following? Feeling depressed"
+WB154Q05HA,"In the past six months, how often have you had the following? Irritability or bad temper"
+WB154Q06HA,"In the past six months, how often have you had the following? Feeling nervous"
+WB154Q07HA,"In the past six months, how often have you had the following? Difficulties in getting to sleep"
+WB154Q08HA,"In the past six months, how often have you had the following? Feeling dizzy"
+WB154Q09HA,"In the past six months, how often have you had the following? Feeling anxious"
+WB155Q01HA,How satisfied are you with each of the following? Your health
+WB155Q02HA,How satisfied are you with each of the following? The way that you look
+WB155Q03HA,How satisfied are you with each of the following? What you learn at school
+WB155Q04HA,How satisfied are you with each of the following? The friends you have
+WB155Q05HA,How satisfied are you with each of the following? The neighbourhood you live in
+WB155Q06HA,How satisfied are you with each of the following? All the things you have
+WB155Q07HA,How satisfied are you with each of the following? How you use your time
+WB155Q08HA,How satisfied are you with each of the following? Your relationship with your parents/guardians
+WB155Q09HA,How satisfied are you with each of the following? Your relationship with your teachers
+WB155Q10HA,How satisfied are you with each of the following? Your life at school
+WB156Q01HA,"At present, how many close friends do you have?"
+WB158Q01HA,How many days a week do you usually spend time with your friends right after school?
+WB160Q01HA,"How often do you talk to your friends on the phone, send them text messages or have contact through social media?"
+WB161Q01HA,Are your friends well accepted by your parents or guardians?
+WB162Q01HA,How easy is it for you to talk to the following people about things that really bother you? Your father
+WB162Q02HA,How easy is it for you to talk to the following people about things that really bother you? Your mother's partner
+WB162Q03HA,How easy is it for you to talk to the following people about things that really bother you? Your mother
+WB162Q04HA,How easy is it for you to talk to the following people about things that really bother you? Your father's partner
+WB162Q05HA,How easy is it for you to talk to the following people about things that really bother you? Your brother(s)
+WB162Q06HA,How easy is it for you to talk to the following people about things that really bother you? Your sister(s)
+WB162Q07HA,How easy is it for you to talk to the following people about things that really bother you? Your close friend(s)
+WB162Q08HA,How easy is it for you to talk to the following people about things that really bother you? Your teachers
+WB162Q09HA,How easy is it for you to talk to the following people about things that really bother you? Other family members
+WB163Q01HA,"Thinking about your parents or guardians, how often do they: Help me as much as I need"
+WB163Q02HA,"Thinking about your parents or guardians, how often do they: Let me do the things I like doing"
+WB163Q03HA,"Thinking about your parents or guardians, how often do they: Show that they care"
+WB163Q04HA,"Thinking about your parents or guardians, how often do they: Try to understand my problems and worries"
+WB163Q05HA,"Thinking about your parents or guardians, how often do they: Encourage me to make my own decisions"
+WB163Q06HA,"Thinking about your parents or guardians, how often do they: Try to control everything I do"
+WB163Q07HA,"Thinking about your parents or guardians, how often do they: Treat me like a baby"
+WB163Q08HA,"Thinking about your parents or guardians, how often do they: Make me feel better when I am upset"
+WB164Q01HA,How often do you worry about how much money your family has?
+WB165Q01HA,When was the last time you attended a mathematics class at school?
+WB166Q01HA,How did you feel the last time you attended a mathematics class at school? Bored
+WB166Q02HA,How did you feel the last time you attended a mathematics class at school? Challenged
+WB166Q03HA,How did you feel the last time you attended a mathematics class at school? Nervous or tense
+WB166Q04HA,How did you feel the last time you attended a mathematics class at school? Motivated or inspired
+WB167Q01HA,When was the last time you attended a [test language lesson] at school?
+WB168Q01HA,How did you feel the last time you attended a [test language lesson] at school? Bored
+WB168Q02HA,How did you feel the last time you attended a [test language lesson] at school? Challenged
+WB168Q03HA,How did you feel the last time you attended a [test language lesson] at school? Nervous or tense
+WB168Q04HA,How did you feel the last time you attended a [test language lesson] at school? Motivated or inspired
+WB171Q01HA,Now think of the last time you had a break between classes at school. How did you feel? Happy
+FL150Q01TA,"Learned how to manage your money in a course: At school, in a subject or course specifically about managing your money"
+FL150Q02TA,Learned how to manage your money in a course: At school as part of another subject or course
+FL150Q03TA,Learned how to manage your money in a course: In an activity outside school
+FL151Q01HA,Text books used in the last 12 months: Have you had a specific text book on money matters?
+FL151Q02HA,Text books used in the last 12 months: Have you had a text book on some other subject that discusses money matters?
+FL164Q01HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Interest payment"
+FL164Q02HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Compound interest"
+FL164Q03HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Exchange rate"
+FL164Q04HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Depreciation"
+FL164Q05HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Shares/stocks"
+FL164Q06HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Return on investment"
+FL164Q07HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Dividend"
+FL164Q08HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Diversification"
+FL164Q09HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Debit card"
+FL164Q10HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Bank loan"
+FL164Q11HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Pension plan"
+FL164Q12HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Budget"
+FL164Q13HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Wage"
+FL164Q14HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Entrepreneur"
+FL164Q15HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Central bank"
+FL164Q16HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Income tax"
+FL164Q17HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Credit default swap"
+FL164Q18HA,"School lessons in the last 12 months, have you heard of, or learnt about, the following term: Call option"
+FL165Q01HA,Encountered types of problems about money matters: During your mathematics class
+FL165Q02HA,Encountered types of problems about money matters: During another class
+FL165Q03HA,Encountered types of problems about money matters: During [...] school time from an outside visitor [...]
+FL165Q04HA,Encountered types of problems about money matters: During extra-curricular activity outside of school time
+FL166Q01HA,Encountered in a school lesson in the last 12 months: Describing the purpose and uses of money
+FL166Q02HA,Encountered in a school lesson in the last 12 months: Exploring the difference between spending money on needs and wants
+FL166Q03HA,Encountered in a school lesson in the last 12 months: Exploring ways of planning to pay an expense
+FL166Q05HA,Encountered in a school lesson in the last 12 months: Discussing the rights of consumers when dealing with [...]
+FL166Q06HA,Encountered in a school lesson in the last 12 months: Discussing the ways in which money invested in the stock [...]
+FL166Q07HA,Encountered in a school lesson in the last 12 months: Analysing advertisements to understand how they encourage [...]
+FL153Q01HA,"Get information about money matters (spending, saving, banking, investment): Parents/guardians or other adult relations"
+FL153Q02HA,"Get information about money matters (spending, saving, banking, investment): Friends"
+FL153Q03HA,"Get information about money matters (spending, saving, banking, investment): Television or radio"
+FL153Q04HA,"Get information about money matters (spending, saving, banking, investment): The Internet"
+FL153Q05HA,"Get information about money matters (spending, saving, banking, investment): Magazines"
+FL153Q06HA,"Get information about money matters (spending, saving, banking, investment): Teachers"
+FL167Q01HA,Discuss the following with your parents (or guardians or relatives): Your spending decisions
+FL167Q02HA,Discuss the following with your parents (or guardians or relatives): Your savings decisions
+FL167Q03HA,Discuss the following with your parents (or guardians or relatives): The family budget
+FL167Q04HA,Discuss the following with your parents (or guardians or relatives): Money for things you want to buy
+FL167Q05HA,Discuss the following with your parents (or guardians or relatives): News related to economics or finance
+FL156Q01TA,Do you get money from any of these sources? An allowance or pocket money for regularly doing chores at home
+FL156Q02TA,"Do you get money from any of these sources? An allowance or pocket money, without having to do any chores"
+FL156Q03TA,"Do you get money from any of these sources? Working outside school hours (e.g. a holiday job, part-time work)"
+FL156Q04TA,Do you get money from any of these sources? Working in a family business
+FL156Q05TA,Do you get money from any of these sources? Occasional informal jobs (e.g. baby-sitting or gardening)
+FL156Q06TA,Do you get money from any of these sources? Gifts from friends or relatives
+FL156Q07HA,Do you get money from any of these sources? Selling things (e.g. at local markets or on [eBay])
+FL159Q01HA,Agree: I can decide independently what to spend my money on.
+FL159Q02HA,"Agree: I can spend small amounts of my money independently, but for larger amounts I need to ask my parents or [...]"
+FL159Q03HA,Agree: I need to ask my parents or guardians for permission before I spend any money on my own.
+FL159Q04HA,Agree: I am responsible for my own money matters (e.g. for preventing theft).
+FL160Q01HA,Think about buying a new product from your allowance: Compare prices in different shops
+FL160Q02HA,Think about buying a new product from your allowance: Compare prices between a shop and an online shop
+FL160Q03HA,Think about buying a new product from your allowance: Buy the product without comparing prices
+FL160Q04HA,Think about buying a new product from your allowance: Wait until the product gets cheaper before buying it
+FL161Q01HA,"Do you have any of the following things? An account with a [bank, building society, post office or credit union]"
+PA001Q01TA,Who will complete this questionnaire? Mother or other female guardian
+PA001Q02TA,Who will complete this questionnaire? Father or other male guardian
+PA001Q03TA,Who will complete this questionnaire? Other
+PA003Q01TA,"Activities with your child, how often: Discuss how well my child is doing at school"
+PA003Q02TA,"Activities with your child, how often: Eat <the main meal> with my child around a table"
+PA003Q03TA,"Activities with your child, how often: Spend time just talking to my child"
+PA003Q04HA,"Activities with your child, how often: Help my child with his/her reading and writing homework"
+PA003Q05IA,"Activities with your child, how often: Discuss political or social issues"
+PA003Q06IA,"Activities with your child, how often: Go to a bookstore or library with my child"
+PA003Q07IA,"Activities with your child, how often: Talk with my child about what he/she is reading on his/her own"
+PA154Q01IA,"When child attended the first year of <ISCED 1>, how often: Read books"
+PA154Q02IA,"When child attended the first year of <ISCED 1>, how often: Tell stories"
+PA154Q03IA,"When child attended the first year of <ISCED 1>, how often: Sing songs"
+PA154Q04IA,"When child attended the first year of <ISCED 1>, how often: Play with alphabet toys [...]"
+PA154Q05IA,"When child attended the first year of <ISCED 1>, how often: Talk about things you had done"
+PA154Q06IA,"When child attended the first year of <ISCED 1>, how often: Talk about what you had read"
+PA154Q07IA,"When child attended the first year of <ISCED 1>, how often: Play word games"
+PA154Q08IA,"When child attended the first year of <ISCED 1>, how often: Write letters or words"
+PA154Q09IA,"When child attended the first year of <ISCED 1>, how often: Read aloud signs and labels"
+PA154Q10HA,"When child attended the first year of <ISCED 1>, how often: Say counting rhymes or sing counting songs"
+PA155Q01IA,In what language did most of the activities in the previous question take place?
+PA156Q01HA,"Thinking back to when your child was about 10 years old, how often would he or she read the following? Comic books"
+PA156Q02HA,"Thinking back to when your child was about 10 years old, how often would he or she read the following? Magazines"
+PA156Q03HA,"Thinking back to when your child was about 10 years old, how often would he or she read the following? Books"
+PA156Q04HA,"Thinking back to when your child was about 10 years old, how often would he or she read the following? Newspapers"
+PA004Q02NA,Thinking about <the last academic year>: I am supportive of my child's efforts at school and his/her achievements.
+PA004Q03NA,Thinking about <the last academic year>: I support my child when he/she is facing difficulties at school.
+PA004Q04NA,Thinking about <the last academic year>: I encourage my child to be confident.
+PA008Q01TA,<the last academic year>: Discussed my child's behaviour with a teacher on my own initiative.
+PA008Q02TA,<the last academic year>: Discussed my child's behaviour on the initiative of one of his/her teachers.
+PA008Q03TA,<the last academic year>: Discussed my child's progress with a teacher on my own initiative.
+PA008Q04TA,<the last academic year>: Discussed my child's progress on the initiative of one of their teachers.
+PA008Q05TA,"<the last academic year>: Participated in local school government, e.g. parent council or school management committee."
+PA008Q06NA,<the last academic year>: Volunteered in physical or extra-curricular activities [...]
+PA008Q07NA,<the last academic year>: Volunteered to support school activities [...]
+PA008Q08NA,<the last academic year>: Attended a scheduled meeting or conferences for parents.
+PA008Q09NA,<the last academic year>: Talked about how to support learning at home and homework with my child's teachers.
+PA008Q10NA,<the last academic year>: Exchanged ideas on parenting [...] or the child's development with my child's teachers.
+PA009Q01NA,"<the last academic year>, participation hindered: The meeting times were inconvenient."
+PA009Q02NA,"<the last academic year>, participation hindered: I was not able to get off from work."
+PA009Q03NA,"<the last academic year>, participation hindered: I had no one to take care of my child/ children."
+PA009Q04NA,"<the last academic year>, participation hindered: The way to school is unsafe."
+PA009Q05NA,"<the last academic year>, participation hindered: I had problems with transportation."
+PA009Q06NA,"<the last academic year>, participation hindered: I felt unwelcome at my child's school."
+PA009Q07NA,"<the last academic year>, participation hindered: I feel generally awkward in a school."
+PA009Q08NA,"<the last academic year>, participation hindered: My <language skills> were not sufficient."
+PA009Q09NA,"<the last academic year>, participation hindered: I think participation is not relevant for my child's development."
+PA009Q10NA,"<the last academic year>, participation hindered: I do not know how I could participate in school activities."
+PA009Q11NA,"<the last academic year>, participation hindered: My child does not want me to participate."
+PA007Q01TA,Agree: Most of my child's school teachers seem competent and dedicated.
+PA007Q02TA,Agree: Standards of achievement are high in my child's school.
+PA007Q03TA,Agree: I am happy with the content taught and the instructional methods used in my child's school.
+PA007Q04TA,Agree: I am satisfied with the disciplinary atmosphere in my child's school.
+PA007Q05TA,Agree: My child's progress is carefully monitored by the school.
+PA007Q06TA,Agree: My child's school provides regular and useful information on my child's progress.
+PA007Q07TA,Agree: My child's school does a good job in educating students.
+PA007Q09NA,Agree: My child's school provides an inviting atmosphere for parents to get involved.
+PA007Q11NA,Agree: My child's school provides effective communication between the school and families.
+PA007Q12NA,Agree: My child's school involves parents in the school's decision-making process.
+PA007Q13NA,Agree: My child's school offers parent education [...] or family support programmes [...]
+EFFORT1,How much effort did you put into this test?
+EFFORT2,How much effort would you have invested?
+OCOD1,ISCO-08 Occupation code - Mother
+OCOD2,ISCO-08 Occupation code - Father
+OCOD3,ISCO-08 Occupation code - Self
+GRADE,Grade compared to modal grade in country
+AGE,Age
+PROGN,Unique national study programme code
+COBN_S,Country of Birth National Categories- Self
+COBN_M,Country of Birth National Categories- Mother
+COBN_F,Country of Birth National Categories- Father
+LANGN,Language at home (3-digit code)
+ISCEDL,ISCED level
+ISCEDD,ISCED designation
+ISCEDO,ISCED orientation
+MISCED,Mothers Education (ISCED)
+FISCED,Fathers Education (ISCED)
+HISCED,Highest Education of parents (ISCED)
+PARED,Index highest parental education in years of schooling
+MISCED_D,Mothers Education - alternate definition (ISCED)
+FISCED_D,Fathers Education - alternate definition (ISCED)
+HISCED_D,Highest Education of parents - alternate definition (ISCED)
+PAREDINT,Index highest parental education (international years of schooling scale)
+BMMJ1,ISEI of mother
+BFMJ2,ISEI of father
+HISEI,Index highest parental occupational status
+LANGMOTHER,Language spoken with their mother for students who do not speak the test language at home
+LANGFATHER,Language spoken with their father for students who do not speak the test language at home
+LANGSIBLINGS,Language spoken with their brother(s) and/or sister(s) for students who do not speak the test language at home
+LANGFRIEND,Language spoken with their best friend for students who do not speak the test language at home
+LANGSCHMATES,Language spoken with their school mates for students who do not speak the test language at home
+IMMIG,Index Immigration status
+DURECEC,Duration in early childhood education and care
+REPEAT,Grade Repetition
+BSMJ,Students expected occupational status (SEI)
+MMINS,Learning time (minutes per week) - <Mathematics>
+LMINS,Learning time (minutes per week) - <test language>
+SMINS,Learning time (minutes per week) - <science>
+TMINS,Learning time (minutes per week) - in total
+FCFMLRTY,Familiarity with concepts of finance (Sum)
+SCCHANGE,Number of school changes
+CHANGE,Number of changes in educational biography (Sum)
+STUBMI,Body mass index of student
+ESCS,"Index of economic, social and cultural status"
+UNDREM,Meta-cognition: understanding and remembering
+METASUM,Meta-cognition: summarising
+METASPAM,Meta-cognition: assess credibility
+ICTHOME,ICT available at home
+ICTSCH,ICT available at school
+HOMEPOS,Home possessions (WLE)
+CULTPOSS,Cultural possessions at home (WLE)
+HEDRES,Home educational resources (WLE)
+WEALTH,Family wealth (WLE)
+ICTRES,ICT resources (WLE)
+DISCLIMA,Disciplinary climate in test language lessons (WLE)
+TEACHSUP,Teacher support in test language lessons (WLE)
+DIRINS,Teacher-directed instruction (WLE)
+PERFEED,Perceived feedback (WLE)
+EMOSUPS,Parents' emotional support perceived by student (WLE)
+STIMREAD,Teacher's stimulation of reading engagement perceived by student (WLE)
+ADAPTIVITY,Adaptation of instruction (WLE)
+TEACHINT,Perceived teacher's interest (WLE)
+JOYREAD,Joy/Like reading (WLE)
+SCREADCOMP,Self-concept of reading: Perception of competence (WLE)
+SCREADDIFF,Self-concept of reading: Perception of difficulty (WLE)
+PISADIFF,Perception of difficulty of the PISA test (WLE)
+PERCOMP,Perception of competitiveness at school (WLE)
+PERCOOP,Perception of cooperation at school (WLE)
+ATTLNACT,Attitude towards school: learning activities (WLE)
+COMPETE,Competitiveness (WLE)
+WORKMAST,Work mastery (WLE)
+GFOFAIL,General fear of failure (WLE)
+EUDMO,Eudaemonia: meaning in life (WLE)
+SWBP,Subjective well-being: Positive affect (WLE)
+RESILIENCE,Resilience (WLE)
+MASTGOAL,Mastery goal orientation (WLE)
+GCSELFEFF,Self-efficacy regarding global issues (WLE)
+GCAWARE,Student's awareness of global issues (WLE)
+ATTIMM,Student's attitudes towards immigrants (WLE)
+INTCULT,Student's interest in learning about other cultures (WLE)
+PERSPECT,Perspective-taking (WLE)
+COGFLEX,Cognitive flexibility/adaptability (WLE)
+RESPECT,Respect for people from other cultures (WLE)
+AWACOM,Awareness of intercultural communication (WLE)
+GLOBMIND,Global-mindedness (WLE)
+DISCRIM,Discriminating school climate (WLE)
+BELONG,Subjective well-being: Sense of belonging to school (WLE)
+BEINGBULLIED,Student's experience of being bullied (WLE)
+ENTUSE,ICT use outside of school (leisure) (WLE)
+HOMESCH,Use of ICT outside of school (for school work activities) (WLE)
+USESCH,Use of ICT at school in general (WLE)
+INTICT,Interest in ICT (WLE)
+COMPICT,Perceived ICT competence (WLE)
+AUTICT,Perceived autonomy related to ICT use (WLE)
+SOIAICT,ICT as a topic in social interaction (WLE)
+ICTCLASS,Subject-related ICT use during lessons (WLE)
+ICTOUTSIDE,Subject-related ICT use outside of lessons (WLE)
+INFOCAR,Information about careers (WLE)
+INFOJOB1,Information about the labour market provided by the school (WLE)
+INFOJOB2,Information about the labour market provided outside of school (WLE)
+FLCONFIN,Confidence about financial matters (WLE)
+FLCONICT,Confidence about financial matters using digital devices (WLE)
+FLSCHOOL,Financial education in school lessons (WLE)
+FLFAMILY,Parental involvement in matters of Financial Literacy (WLE)
+CURSUPP,Current parental support for learning at home (WLE)
+EMOSUPP,Parents' emotional support (WLE)
+PQSCHOOL,Parents' perceived school quality (WLE)
+PASCHPOL,School policies for parental involvement (WLE)
+PRESUPP,Previous parental support for learning at home (WLE)
+JOYREADP,Parents enjoyment of reading (WLE)
+ATTIMMP,Parents' attitudes towards immigrants (WLE)
+INTCULTP,Parents' interest in learning about other cultures (WLE)
+GCAWAREP,Parents' awareness of global issues (WLE)
+BODYIMA,Body image (WLE)
+SOCONPA,Social Connections: Parents (WLE)
