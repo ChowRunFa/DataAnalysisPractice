@@ -5,3 +5,4 @@ USTC 评课社区网站 https://icourse.club/course/ 的课程信息爬取
 王者英雄数据网站 http://db.18183.com/wzry/ 英雄信息爬取
 
 ![image](https://github.com/ChowRunFa/DataAnalysisPractice/assets/97417202/8f34062c-0af8-42d6-a088-48109329b00c)
+**实验报告的MarkDown文件图片挂了(懒得上传)，参考报告的pdf版本**
